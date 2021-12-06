@@ -1,28 +1,28 @@
 <template>
   <Form :model="personalInformationForm" @submit="addCareCoordinator" :validation-schema="schema">
     <a-row :gutter="24">
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>First Name</label>
           <Field class="ant-input ant-input-lg" v-model="personalInformationForm.first_name" name="first_name" size="large" />
           <ErrorMessage class="error" name="first_name" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Last Name</label>
           <Field class="ant-input ant-input-lg" v-model="personalInformationForm.last_name" name="last_name" size="large" />
           <ErrorMessage class="error" name="last_name" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Designation</label>
           <Field class="ant-input ant-input-lg" v-model="personalInformationForm.designation" name="designation" size="large" />
           <ErrorMessage class="error" name="designation" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label> Gender</label>
           <Field class="ant-input ant-input-lg" name="gender" as="select"
@@ -37,21 +37,21 @@
           <ErrorMessage class="error" name="gender" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Email</label>
           <Field class="ant-input ant-input-lg" v-model="personalInformationForm.email" name="email" size="large" />
           <ErrorMessage class="error" name="email" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Phone No</label>
           <Field class="ant-input ant-input-lg" v-model="personalInformationForm.phone_no" name="phone_no" size="large" />
           <ErrorMessage class="error" name="phone_no" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Specialization</label>
           <Field class="ant-input ant-input-lg" name="specialization" as="select"
@@ -64,7 +64,7 @@
           <ErrorMessage class="error" name="specialization" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Network</label>
           <Field class="ant-input ant-input-lg" name="network" as="select"
@@ -77,7 +77,7 @@
           <ErrorMessage class="error" name="network" />
         </div>
       </a-col>
-      <a-col :span="24">
+      <a-col :span="12" :sm="12" :xs="12">
         <button class="btn primaryBtn">Add</button>
       </a-col>
     </a-row>

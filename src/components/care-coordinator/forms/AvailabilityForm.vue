@@ -2,7 +2,7 @@
   <Form :model="availabilityForm" @submit="addCareCoordinatorAvailability" :validation-schema="schema">
     <a-row :gutter="24">
 
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Start Time</label>
           <Field as="select"
@@ -22,7 +22,7 @@
         </div>
       </a-col>
 
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>End Time</label>
           <Field as="select"
@@ -45,7 +45,7 @@
       
     </a-row>
     <a-row :gutter="24" class="mb-24">
-      <a-col :span="24">
+      <a-col :span="12" :sm="12" :xs="24">
         <button class="btn primaryBtn">Add</button>
       </a-col>
     </a-row>

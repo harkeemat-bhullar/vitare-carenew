@@ -2,7 +2,6 @@
   <a-col :sm="12" :xs="24">
     <a-card title="Total Patients Chart" class="common-card">
       <apexchart
-        width="500"
         type="pie"
         :options="chartOptions"
         :series="series"

@@ -307,15 +307,12 @@ body {
 .common-btn {
 	text-align: right;
 }
-
-.primaryBtn {
-	border: 1px solid transparent !important;
-	cursor: pointer !important;
-	color: #1890ff !important;
-	background: #fff !important;
-	border-color: #1890ff !important;
-	border-radius: 0px !important;
-	padding: 7px 20px 7px 19px !important;
-	font-size: 13px !important;
-	font-weight: 300 !important;
+.steps-action {
+    text-align: right;
 }
+
+@media screen and (max-width: 576px){
+	.pageTittle .commonBtn {
+		position: relative !important;
+	}
+	}

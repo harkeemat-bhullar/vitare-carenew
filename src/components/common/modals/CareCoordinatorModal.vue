@@ -1,6 +1,6 @@
 <template>
   <a-row :gutter="24">
-    <a-col :span="24">
+    <a-col :span="24" >
       <a-steps :current="current">
         <a-step v-for="item in steps" :key="item.title" :title="item.title" />
       </a-steps>
@@ -20,7 +20,7 @@
       <div class="steps-content" v-if="steps[current].title == 'Availability'">
         <AvailabilityForm></AvailabilityForm>
         <a-row :gutter="24">
-          <a-col :span="24">
+          <a-col :span="24" >
             <a-table :columns="availabilityColumns" :data-source="availabilityData" :scroll="{ x: 900 }" />
           </a-col>
         </a-row>
@@ -30,7 +30,7 @@
       <div class="steps-content" v-if="steps[current].title == 'Roles'">
         <RolesForm></RolesForm>
         <a-row :gutter="24">
-          <a-col :span="24">
+          <a-col :span="24" >
             <a-table :columns="availabilityColumns" :data-source="availabilityData" :scroll="{ x: 900 }" />
           </a-col>
         </a-row>

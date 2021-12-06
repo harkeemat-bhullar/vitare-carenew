@@ -15,7 +15,7 @@
                         </div>
                     </div>
                 </a-col>
-                <a-col :md="12">
+                <a-col :md="12" :sm="12" :xs="24">
                     <div class="rightWrapper">
                         <img class="rightImg" src="@/assets/images/curve.png" alt="image" />
                         <h2>Login</h2>

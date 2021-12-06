@@ -1,13 +1,13 @@
 <template>
 <a-row class="mb-24" :gutter="24">
-    <a-col :span="12">
+  <a-col :sm="12" :xs="24">
         <h2>Specialization</h2>
         <a-row :gutter="24">
             <LongCard customClass="two" count="4" text="Wellness"></LongCard>
             <LongCard customClass="four" count="5" text="Behaviour"></LongCard>
         </a-row>
     </a-col>
-    <a-col :span="12">
+    <a-col :sm="12" :xs="24">
         <h2>Network</h2>
         <a-row :gutter="24">
             <LongCard customClass="six" count="5" text="In"></LongCard>
@@ -38,3 +38,4 @@ export default {
     },
 };
 </script>
+

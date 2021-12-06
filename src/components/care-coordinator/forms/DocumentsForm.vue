@@ -1,21 +1,21 @@
 <template>
   <Form :model="documentsForm" @submit="addCareCoordinatorDocument" :validation-schema="schema">
     <a-row :gutter="24">
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Name</label>
           <Field class="ant-input ant-input-lg" v-model="documentsForm.document_name" name="document_name" size="large" />
           <ErrorMessage class="error" name="document_name" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label>Document</label>
           <Field class="ant-input ant-input-lg" v-model="documentsForm.document" name="document" size="large" type="file" />
           <ErrorMessage class="error" name="document" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label> Type</label>
           <Field class="ant-input ant-input-lg" as="select"
@@ -29,7 +29,7 @@
           <ErrorMessage class="error" name="type" />
         </div>
       </a-col>
-      <a-col :span="12">
+      <a-col :span="12" :sm="12" :xs="24">
         <div class="form-group">
           <label> Tags</label>
           <Field class="ant-input ant-input-lg" as="select"
@@ -43,7 +43,7 @@
       </a-col>
     </a-row>
     <a-row :gutter="24" class="mb-24">
-      <a-col :span="24">
+      <a-col :span="12" :sm="12" :xs="24">
         <button class="btn primaryBtn">Add</button>
       </a-col>
     </a-row>
