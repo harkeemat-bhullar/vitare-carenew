@@ -30,6 +30,8 @@ import "vue-loading-overlay/dist/vue-loading.css"
     validateOnModelUpdate: true,
   });
 
+  console.log('')
+
   export default defineComponent({
     components: {
       Loading,
